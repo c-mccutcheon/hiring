@@ -13,16 +13,16 @@ Support your code with unit tests as you deem appropriate, adhere to SOLID/DRY w
 
 -- **What to look for**
 
--Well named method
--Correct types used for input
--Short-circuiting the method if input A or B is equal to 0
--Using Absoute value of A and B for the calculation loop
--Loop optimization (use lower-bound of A or B to loop by)
--Long/Int64 as a calculated value type, to avoid arithmetic overflows of Int32 types
--Negating the return value via operator if ONE of A or B was negative (negative + positive = negative, negative + negative = positive, positive + positive = positive)
+- Well named method
+- Correct types used for input
+- Short-circuiting the method if input A or B is equal to 0
+- Using Absoute value of A and B for the calculation loop
+- Loop optimization (use lower-bound of A or B to loop by)
+- Long/Int64 as a calculated value type, to avoid arithmetic overflows of Int32 types
+- Negating the return value via operator if ONE of A or B was negative (negative + positive = negative, negative + negative = positive, positive + positive = positive)
 
 A few good solid unit tests proving their function. Look for tests covering:
 
--Value A or B is 0
--Value A or B is negative
--Large numbers for value A or B
+- Value A or B is 0
+- Value A or B is negative
+- Large numbers for value A or B
