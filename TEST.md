@@ -7,9 +7,13 @@ Ask for unit tests to further find out about how a candidate may structure code 
 
 -- **The exercise**
 
-Simple one, write a function to multiply two integer values A and B, without using the arithmetic operators (* or /).
+Create a Visual Studio (2015/1017) solution to the following problem:
 
-Support your code with unit tests as you deem appropriate, adhere to SOLID/DRY where appropriate.
+"Write a function to multiply two integer values A and B, without using the arithmetic operators (* or /)."
+
+Code should be production ready, with supporting tests as deemed required.
+
+Please send your submission in an archive file (zip or rar) to : [emailaddress_here]
 
 -- **What to look for**
 
