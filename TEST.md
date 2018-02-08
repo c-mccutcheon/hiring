@@ -1,7 +1,7 @@
 # Vanquis Coding Exercise
 -- **What this is for**
 
-This isn't supposed to be a 'test' as such, though it often functions as one. It is a deceptively intricate, small exercise, which will expose a good amount about most programmers. It covers analytical thinking, problem solving, knowledge of types and operators, performance via short-circuiting and loop optimization.
+This is a deceptively intricate, small exercise, which will expose a good amount about most programmers. It covers analytical thinking, problem solving, knowledge of types and operators, performance via short-circuiting and loop optimization.
 
 Ask for unit tests to further find out about how a candidate may structure code in a life-like situation.
 
@@ -25,7 +25,7 @@ Please send your submission in an archive file (zip or rar) to : [emailaddress_h
 - Long/Int64 as a calculated value type, to avoid arithmetic overflows of Int32 types
 - Negating the return value via operator if ONE of A or B was negative (negative + positive = negative, negative + negative = positive, positive + positive = positive)
 
-A few good solid unit tests proving their function. Look for tests covering:
+A few good solid unit tests proving their function. Look for example tests covering:
 
 - Value A or B is 0
 - Value A or B is negative
